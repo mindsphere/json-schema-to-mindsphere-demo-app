@@ -1,6 +1,6 @@
 # json-schema-to-mindsphere-demo-app
 
-## How to create MindSphere Artefact from JSON Schema defintions
+## How to create MindSphere Artefact from JSON Schema definitions
 
 You can create all MindSphere modelling artefacts ([Variables, Aspect- and Asset Types as well as Assets](https%3A%2F%2Fdeveloper.mindsphere.io%2Fapis%2Fadvanced-assetmanagement%2Fapi-assetmanagement-samples-modelingassets.html)) straight from a JSON Schema. This means that if you already have JSON data gathered from your industrial assets (e.g. because they are already available on your production data bus) you can leverage your existing JSON schemas (or extract them from JSON data) to quickly create all needed MindSphere artefacts.
 
