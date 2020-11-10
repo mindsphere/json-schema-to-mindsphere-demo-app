@@ -1,0 +1,170 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "The root schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": {},
+    "examples": [
+        {
+            "servos": {
+                "servo0": 2366,
+                "servo1": 2366,
+                "servo2": 2100,
+                "servo3": 1672,
+                "servo4": 2086,
+                "servo5": 1500
+            },
+            "angles": {
+                "servoangle0": 2.9296323044556787,
+                "servoangle1": 2.41781015480265,
+                "servoangle2": 2.5120105504443115,
+                "servoangle3": 1.8400477282004584,
+                "servoangle4": 2.490030458127924,
+                "servoangle5": 1.5700065940276948
+            }
+        }
+    ],
+    "required": ["servos", "angles"],
+    "properties": {
+        "servos": {
+            "$id": "#/properties/servos",
+            "type": "object",
+            "title": "The servos schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": {},
+            "examples": [
+                {
+                    "servo0": 2366,
+                    "servo1": 2366,
+                    "servo2": 2100,
+                    "servo3": 1672,
+                    "servo4": 2086,
+                    "servo5": 1500
+                }
+            ],
+            "required": ["servo0", "servo1", "servo2", "servo3", "servo4", "servo5"],
+            "properties": {
+                "servo0": {
+                    "$id": "#/properties/servos/properties/servo0",
+                    "type": "integer",
+                    "title": "The servo0 schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": 0,
+                    "examples": [2366]
+                },
+                "servo1": {
+                    "$id": "#/properties/servos/properties/servo1",
+                    "type": "integer",
+                    "title": "The servo1 schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": 0,
+                    "examples": [2366]
+                },
+                "servo2": {
+                    "$id": "#/properties/servos/properties/servo2",
+                    "type": "integer",
+                    "title": "The servo2 schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": 0,
+                    "examples": [2100]
+                },
+                "servo3": {
+                    "$id": "#/properties/servos/properties/servo3",
+                    "type": "integer",
+                    "title": "The servo3 schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": 0,
+                    "examples": [1672]
+                },
+                "servo4": {
+                    "$id": "#/properties/servos/properties/servo4",
+                    "type": "integer",
+                    "title": "The servo4 schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": 0,
+                    "examples": [2086]
+                },
+                "servo5": {
+                    "$id": "#/properties/servos/properties/servo5",
+                    "type": "integer",
+                    "title": "The servo5 schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": 0,
+                    "examples": [1500]
+                }
+            },
+            "additionalProperties": true
+        },
+        "angles": {
+            "$id": "#/properties/angles",
+            "type": "object",
+            "title": "The angles schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": {},
+            "examples": [
+                {
+                    "servoangle0": 2.9296323044556787,
+                    "servoangle1": 2.41781015480265,
+                    "servoangle2": 2.5120105504443115,
+                    "servoangle3": 1.8400477282004584,
+                    "servoangle4": 2.490030458127924,
+                    "servoangle5": 1.5700065940276948
+                }
+            ],
+            "required": ["servoangle0", "servoangle1", "servoangle2", "servoangle3", "servoangle4", "servoangle5"],
+            "properties": {
+                "servoangle0": {
+                    "$id": "#/properties/angles/properties/servoangle0",
+                    "type": "number",
+                    "title": "The servoangle0 schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": 0.0,
+                    "examples": [2.9296323044556787]
+                },
+                "servoangle1": {
+                    "$id": "#/properties/angles/properties/servoangle1",
+                    "type": "number",
+                    "title": "The servoangle1 schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": 0.0,
+                    "examples": [2.41781015480265]
+                },
+                "servoangle2": {
+                    "$id": "#/properties/angles/properties/servoangle2",
+                    "type": "number",
+                    "title": "The servoangle2 schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": 0.0,
+                    "examples": [2.5120105504443115]
+                },
+                "servoangle3": {
+                    "$id": "#/properties/angles/properties/servoangle3",
+                    "type": "number",
+                    "title": "The servoangle3 schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": 0.0,
+                    "examples": [1.8400477282004584]
+                },
+                "servoangle4": {
+                    "$id": "#/properties/angles/properties/servoangle4",
+                    "type": "number",
+                    "title": "The servoangle4 schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": 0.0,
+                    "examples": [2.490030458127924]
+                },
+                "servoangle5": {
+                    "$id": "#/properties/angles/properties/servoangle5",
+                    "type": "number",
+                    "title": "The servoangle5 schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": 0.0,
+                    "examples": [1.5700065940276948]
+                }
+            },
+            "additionalProperties": true
+        }
+    },
+    "additionalProperties": true
+}

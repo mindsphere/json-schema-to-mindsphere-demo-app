@@ -1,0 +1,19 @@
+{
+    "servos": {
+        "servo0": 2366,
+        "servo1": 2366,
+        "servo2": 2100,
+        "servo3": 1672,
+        "servo4": 2086,
+        "servo5": 1500
+    },
+
+    "angles": {
+        "servoangle0": 2.9296323044556787,
+        "servoangle1": 2.41781015480265,
+        "servoangle2": 2.5120105504443115,
+        "servoangle3": 1.8400477282004584,
+        "servoangle4": 2.490030458127924,
+        "servoangle5": 1.5700065940276948
+    }
+}
