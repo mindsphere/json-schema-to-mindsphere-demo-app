@@ -10,7 +10,7 @@ Let's assume that you are modelling a digital twin of a robot with several servo
 
 ![robot](images/robot3d.png)
 
-The robot is capable of sending the power applied by each servo-motor (servo0-servo5), the angle data (servoangle0-servoangle5) on the joints and the sensor data with temperature on the motor1 and the indicators if the motor is blocked or vibrating over MQTT:
+The robot is capable of sending the power applied by each servo-motor (servo0-servo5), the rotation angle of the joints(servoangle0-servoangle5) and the sensor data with temperature on the motor1 and the indicators if the motor is blocked or vibrating over MQTT:
 
 **Servomotor data for the Robot**:
 
