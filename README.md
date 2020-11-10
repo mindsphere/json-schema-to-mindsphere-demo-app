@@ -48,7 +48,53 @@ The robot is capable of sending the power applied by each servo-motor (servo0-se
 
 First step is to extract the JSON Schema from the existing data. (In a real manufacturing project, the chances are high that the equipment manufacturer would provide these schemas. We can use e.g. [https://jsonschema.net/](https://jsonschema.net/) to extract the corresponding schemas
 
-The schemas are available in `schemas/` directory.
+The schemas are available in `schemas/` directory. Here is the example for sensor data
+
+```javascript
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "The root schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": {},
+    "examples": [
+        {
+            "blocked": false,
+            "vibration": true,
+            "servo1_temp": 21.67
+        }
+    ],
+    "required": ["blocked", "vibration", "servo1_temp"],
+    "properties": {
+        "blocked": {
+            "$id": "#/properties/blocked",
+            "type": "boolean",
+            "title": "The blocked schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": false,
+            "examples": [false]
+        },
+        "vibration": {
+            "$id": "#/properties/vibration",
+            "type": "boolean",
+            "title": "The vibration schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": false,
+            "examples": [true]
+        },
+        "servo1_temp": {
+            "$id": "#/properties/servo1_temp",
+            "type": "number",
+            "title": "The servo1_temp schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0.0,
+            "examples": [21.67]
+        }
+    },
+    "additionalProperties": true
+}
+```
 
 We can use this information to create all necessary MindSphere Modelling artefacts and start sending data to MindSphere.
 
