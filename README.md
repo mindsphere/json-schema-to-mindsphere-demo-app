@@ -6,7 +6,7 @@ You can create all MindSphere modelling artefacts ([Variables, Aspect- and Asset
 
 ## Example Data
 
-Let's assume that you are modelling a digital twin of a robot with several servomotors, like this one in the picture (This is a [Joy-IT Robo-Set](https%3A%2F%2Fwww.conrad.de%2Fde%2Fp%2Fjoy-it-robo-set-raspberry-pi-3-b-1-gb-4-x-1-2-ghz-inkl-roboterarm-inkl-controller-inkl-kuehlkoerper-inkl-netzteil-1611553.html) toy robot equipped with Raspberry PI which I am using for this example)
+Let's assume that you are modelling a digital twin of a robot with several servomotors, like this one in the picture (This is a [Joy-IT Robo-Set](https://www.conrad.de/de/p/joy-it-robo-set-raspberry-pi-3-b-1-gb-4-x-1-2-ghz-inkl-roboterarm-inkl-controller-inkl-kuehlkoerper-inkl-netzteil-1611553.html) toy robot equipped with Raspberry PI which I am using for this example)
 
 ![robot](images/robot3d.png)
 
